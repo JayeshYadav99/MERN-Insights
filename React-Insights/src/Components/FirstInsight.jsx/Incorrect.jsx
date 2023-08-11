@@ -45,7 +45,8 @@ export default function Incorrect() {
         onClick={() => SetShow(!show)}
         style={{ padding: '0.5rem 1rem' }}
       >
-        Go to Correct Code
+     {show ? "Go to Correct Code" : "Go to InCorrect Code"}
+ 
       </button>
       {show ? (<div className="flex   bg-black">
       <div className="border rounded-lg p-4 w-1/2 bg-black text-white mt-4 mr-4 flex-shrink-0">
